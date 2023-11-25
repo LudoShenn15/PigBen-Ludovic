@@ -1,0 +1,219 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.Barre {
+  background-color: #333;
+  height: 5px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-li {
+  float: left;
+}
+
+.nav-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-li a:hover {
+  background-color: #ddd;
+  color: rgb(21, 126, 168);
+}
+
+#pig {
+  position: absolute;
+  height: 95px;
+  top: -20px;
+  width: 150px;
+}
+
+nav#img {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav#img li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#img img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+/* Button styles */
+.c-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ac4caf;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.c-button:hover .c-button__blobs div {
+  transform: scale(1);
+}
+
+.c-button__blobs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.c-button__blobs div {
+  flex: 1;
+  background-color: #1037e6;
+  transform-origin: 50% 50%;
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Slider styles */
+.slider {
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.slider-viewport {
+  display: flex;
+}
+
+.slider-content {
+  display: grid;
+  grid-auto-flow: column;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.slider-content img {
+  width: 800px;
+  height: 400px;
+}
+
+.slider-nav {
+  text-align: center;
+}
+
+.slider-nav a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  border-radius: 50%;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+/* History and Partners styles */
+.barre-histo {
+  margin: 20px 0;
+}
+
+/* Particularities styles */
+.parti {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#PARTICULARITE {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav-grad,
+.nav-diploma,
+.nav-certificate,
+.nav-windows,
+.nav-insignia {
+  text-align: center;
+}
+
+.nav-grad img,
+.nav-diploma img,
+.nav-certificate img,
+.nav-windows img,
+.nav-insignia img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Footer styles */
+.barre-end {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div2 div {
+  flex: 1;
+}
+
+footer h3 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .div2 {
+    flex-direction: column;
+  }
+}

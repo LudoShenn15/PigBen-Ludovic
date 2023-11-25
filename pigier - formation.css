@@ -1,0 +1,64 @@
+/* Ajoutez vos styles personnalisés ici */
+
+/* Barre de navigation */
+.navbar {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffcc00;
+}
+
+/* Image dans l'en-tête */
+header img {
+  width: 150px;
+  height: 95px;
+}
+
+/* Informations de contact */
+section.container {
+  text-align: center;
+}
+
+section.container img {
+  height: 95px;
+  width: 150px;
+}
+
+
+/* Sections pour les différentes formations */
+.container h1 {
+  color: #007bff;
+}
+
+.list-group-item {
+  border-color: #007bff;
+}
+
+/* Pied de page */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 25px 0;
+}
+
+footer h3 {
+  color: #007bff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: letter-spacing 0.5s;
+}
+
+footer a:hover {
+  letter-spacing: 0.5px;
+}
